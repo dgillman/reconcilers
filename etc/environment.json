@@ -1,0 +1,14 @@
+{
+  "id": "Acme",
+  "chef": {
+    "environments": "*"
+  },
+  "aws": {
+    "accounts": [
+      { "id": "acme", "regions": ["us-west-1"] }
+    ]
+  },
+  "newrelic": {
+    "accounts": ["Acme, Inc","Acme Testing"]
+  }
+}
